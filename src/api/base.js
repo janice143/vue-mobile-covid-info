@@ -5,7 +5,7 @@
 const base ={
 
     host:'http://api.tianapi.com',//天行数据 --疫情病毒
-    baseUrl:'https://yupn.api.storeapi.net',//挖数据---国内疫情
+    baseUrl:'https://giea.api.storeapi.net', // 挖数据
     covInfo:'/ncov/index?key=569d0ff495b970a849214461f845dc99',//疫情病毒信息
     chinaData:'/api/94/219?format=json&appid=15143&sign=03ae2fd29a50e1101ddbacad063e17db',//国内疫情接口
     worldData:'/api/94/220?format=json&appid=15143&sign=03ae2fd29a50e1101ddbacad063e17db',//世界疫情数据

@@ -59,8 +59,8 @@ export default {
     };
   },
   created() {
-    api.getChina().then((res) => {
-      // console.log(res.data);
+    api.getChinaData().then((res) => {
+      console.log(res.data);
       this.retdata = res.data.retdata;
     });
   },

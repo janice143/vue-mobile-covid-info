@@ -12,7 +12,7 @@ export default {
   mounted() {
     //-------------------------
     api.getWorldData().then((res) => {
-      console.log("--世界---", res.data);
+      // console.log("--世界---", res.data);
       let world = res.data.retdata;
       if(!world){
         this.$myChart.worldMap("main", []);
